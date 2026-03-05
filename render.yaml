@@ -1,6 +1,0 @@
-services:
-  - type: web
-    name: weather-backend
-    env: docker
-    plan: free
-    dockerfilePath: ./Dockerfile
