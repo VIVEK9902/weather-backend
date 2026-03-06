@@ -19,7 +19,7 @@ import java.util.*;
  */
 @RestController
 @RequestMapping("/api/weather")
-@CrossOrigin(origins = "${cors.allowed.origin}")
+
 public class WeatherController {
 
     private final WeatherService weatherService;
